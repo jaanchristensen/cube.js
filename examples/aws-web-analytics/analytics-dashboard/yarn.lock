@@ -2512,12 +2512,12 @@ component-classes@1.x, component-classes@^1.2.5, component-classes@^1.2.6:
   dependencies:
     component-indexof "0.0.3"
 
-component-cookie@^1.1.4:
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/component-cookie/-/component-cookie-1.1.4.tgz#1b88b3dda4953d890163dd52fa53df374247cf8d"
-  integrity sha512-j6rzl+vHDTowvYz7Al3V0ud84O2l4YqGdA9qMj1W1nlZ5yWi7EhOd7ZSPzWFM25gZgv2OxWh6JlJYfsz2+XYow==
+component-cookie@^1.1.5:
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/component-cookie/-/component-cookie-1.1.5.tgz#27757fae4b27370138378ec754ca8d457bd47040"
+  integrity sha512-+D1nKIL6UfbYBoUeHVVdmd+I+BhgjjMQtT5cHp7HLAdpVi+7GZSvbYPItYaNgTeta5znlC8PJsBFZSY1mf57ZA==
   dependencies:
-    debug "2.2.0"
+    debug "^2.6.9"
 
 component-emitter@^1.2.1:
   version "1.2.1"
@@ -3063,13 +3063,6 @@ date-now@^0.1.4:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/date-now/-/date-now-0.1.4.tgz#eaf439fd4d4848ad74e5cc7dbef200672b9e345b"
   integrity sha1-6vQ5/U1ISK105cx9vvIAZyueNFs=
-
-debug@2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/debug/-/debug-2.2.0.tgz#f87057e995b1a1f6ae6a4960664137bc56f039da"
-  integrity sha1-+HBX6ZWxofauaklgZkE3vFbwOdo=
-  dependencies:
-    ms "0.7.1"
 
 debug@2.6.9, debug@^2.1.2, debug@^2.2.0, debug@^2.3.3, debug@^2.6.0, debug@^2.6.6, debug@^2.6.8, debug@^2.6.9:
   version "2.6.9"
@@ -6711,11 +6704,6 @@ move-concurrently@^1.0.1:
     mkdirp "^0.5.1"
     rimraf "^2.5.4"
     run-queue "^1.0.3"
-
-ms@0.7.1:
-  version "0.7.1"
-  resolved "https://registry.yarnpkg.com/ms/-/ms-0.7.1.tgz#9cd13c03adbff25b65effde7ce864ee952017098"
-  integrity sha1-nNE8A62/8ltl7/3nzoZO6VIBcJg=
 
 ms@2.0.0:
   version "2.0.0"
