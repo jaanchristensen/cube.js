@@ -11,7 +11,7 @@
     "@cubejs-backend/mysql-driver": "^0.19.9",
     "@cubejs-backend/server": "^0.19.10",
     "express-session": "^1.17.0",
-    "passport": "^0.4.1",
+    "passport": "^0.6.0",
     "passport-google-oauth20": "^2.0.0"
   }
 }
