@@ -5,18 +5,19 @@
   "homepage": ".",
   "dependencies": {
     "@cubejs-client/core": "^0.2.0",
-    "@cubejs-client/react": "^0.1.4",
-    "antd": "^3.11.2",
-    "bizcharts": "^3.4.1",
-    "component-cookie": "^1.1.4",
-    "moment": "^2.22.2",
-    "prismjs": "^1.15.0",
+    "@cubejs-client/react": "^0.18.0",
+    "antd": "^3.16.4",
+    "bizcharts": "^4.0.15",
+    "component-cookie": "^1.1.5",
+    "moment": "^2.29.4",
+    "prismjs": "^1.27.0",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-github-corner": "^2.3.0",
-    "react-scripts": "2.1.1",
+    "react-scripts": "5.0.0",
     "uuid": "^3.3.2",
-    "whatwg-fetch": "^3.0.0"
+    "whatwg-fetch": "^3.0.0",
+    "@snyk/protect": "latest"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -24,7 +25,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "upload": "react-scripts build && aws s3 sync build/ s3://aws-web-analytics-dashboard",
-    "update-github": "rm -Rf ../../../docs/aws-web-analytics/ && cp -R build/ ../../../docs/aws-web-analytics/"
+    "update-github": "rm -Rf ../../../docs/aws-web-analytics/ && cp -R build/ ../../../docs/aws-web-analytics/",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -34,5 +37,6 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "snyk": true
 }
