@@ -4,10 +4,14 @@
   "private": true,
   "scripts": {
     "dev": "./node_modules/.bin/cubejs-dev-server",
-    "start": "node index.js"
+    "start": "node index.js",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
-    "@cubejs-backend/postgres-driver": "^0.10.58",
-    "@cubejs-backend/server": "^0.10.62"
-  }
+    "@cubejs-backend/postgres-driver": "^0.18.0",
+    "@cubejs-backend/server": "^0.26.0",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
