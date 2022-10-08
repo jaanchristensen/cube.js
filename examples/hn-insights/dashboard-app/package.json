@@ -13,14 +13,17 @@
     "react-dom": "^16.8.6",
     "react-github-corner": "^2.3.0",
     "react-router-dom": "^5.0.0",
-    "react-scripts": "3.0.0"
+    "react-scripts": "3.0.0",
+    "@snyk/protect": "latest"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "upload": "react-scripts build && aws s3 sync build/ s3://hn-insights-dashboard"
+    "upload": "react-scripts build && aws s3 sync build/ s3://hn-insights-dashboard",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -36,5 +39,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "snyk": true
 }
