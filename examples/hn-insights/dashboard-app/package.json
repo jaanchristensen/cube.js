@@ -5,15 +5,15 @@
   "dependencies": {
     "@cubejs-client/core": "^0.8.4",
     "@cubejs-client/react": "^0.8.4",
-    "antd": "^3.16.5",
-    "bizcharts": "^3.5.2",
+    "antd": "^4.0.0",
+    "bizcharts": "^4.0.0",
     "history": "^4.9.0",
     "moment": "^2.24.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-github-corner": "^2.3.0",
     "react-router-dom": "^5.0.0",
-    "react-scripts": "3.0.0"
+    "react-scripts": "5.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
