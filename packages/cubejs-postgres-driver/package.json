@@ -17,7 +17,7 @@
     "lint": "eslint **/*.js"
   },
   "dependencies": {
-    "@cubejs-backend/query-orchestrator": "^0.19.17",
+    "@cubejs-backend/query-orchestrator": "^0.31.15",
     "moment": "^2.24.0",
     "pg": "^8.2.1"
   },
